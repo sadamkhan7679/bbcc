@@ -1,0 +1,154 @@
+.footer {
+  margin-top: 5rem;
+}
+
+.iconFooterbox {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #4b573c;
+  margin: 5px 10px;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.footerContact {
+  justify-content: center;
+  padding: 1rem 22rem;
+}
+.footer-end {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 130%;
+  /* or 30px */
+
+  text-align: center;
+  letter-spacing: 0.005em;
+  margin-top: 2rem;
+  color: rgba(255, 255, 255, 0.41);
+}
+
+@media screen and (max-width: 1450px) {
+  .footerContact {
+    padding: 1rem 18rem;
+  }
+  .iconFooterbox {
+    padding: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .footerContact {
+    padding: 1rem 14rem;
+  }
+  .iconFooterbox {
+    padding: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .footerContact {
+    padding: 1rem 10rem;
+  }
+  .iconFooterbox {
+    padding: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footerContact {
+    padding: 1rem 6rem;
+  }
+  .iconFooterbox {
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footerContact {
+    padding: 1rem 4rem;
+  }
+  .iconFooterbox {
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .footerContact {
+    padding: 1rem 3rem;
+  }
+  .iconFooterbox {
+    padding: 1rem 1rem;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .footerContact {
+    padding: 1rem 1rem;
+  }
+  .iconFooterbox {
+    padding: 1rem 1rem;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .footerContact {
+    padding: 1rem 0rem;
+  }
+  .iconFooterbox {
+    padding: 1rem 1rem;
+  }
+  .footerIcon{
+    width: 2rem;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .footerContact {
+    padding: 1rem 0rem;
+  }
+  .iconFooterbox {
+    padding: 1rem 1rem;
+  }
+  .footerIcon{
+    width: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .footerContact {
+    padding: 1rem 0rem;
+  }
+  .iconFooterbox {
+    padding: 0.8rem 0.8rem;
+  }
+  .footerIcon{
+    width: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footerContact {
+    padding: 1rem 0rem;
+  }
+  .iconFooterbox {
+    padding: 0.7rem 0.7rem;
+  }
+  .footerIcon{
+    width: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footerContact {
+    padding: 1rem 0rem;
+  }
+  .iconFooterbox {
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    margin: 5px 5px;
+  }
+  .footerIcon{
+    width: 1.5rem;
+  }
+}

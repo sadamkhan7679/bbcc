@@ -1,0 +1,126 @@
+.team {
+  background-image: url("../img/teamBG.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.teamImgBox {
+  text-align: center;
+  width: 100%;
+  padding: 0rem 5rem 5rem 5rem;
+}
+.teamImg {
+  width: 100%;
+}
+.teamHeadMob{
+  display: none;
+}
+.teamHead, .teamHeadMob {
+  font-family: "Squarix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: 0.09em;
+
+  color: #ffffff;
+  margin-top: -6rem;
+  padding-bottom: 5rem;
+  text-shadow: 3px 4px 57px rgba(0, 0, 0, 0.6);
+}
+.teamImgMob{
+  display: none;
+}
+@media screen and (max-width: 1250px) {
+  .teamHead{
+    font-size: 45px;
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .teamHead{
+    font-size: 40px;
+    padding-bottom: 3rem;
+  }
+  .teamImgBox {
+    text-align: center;
+    width: 100%;
+    padding: 0rem 3rem 3rem 3rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .teamHead{
+    font-size: 35px;
+    padding-bottom: 2rem;
+  }
+  .teamImgBox {
+    text-align: center;
+    width: 100%;
+    padding: 0rem 2rem 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .teamHead{
+    font-size: 30px;
+    line-height: 42px;
+    padding-bottom: 2rem;
+  }
+  .teamImgBox {
+    text-align: center;
+    width: 100%;
+    padding: 0rem 2rem 2rem 2rem;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .teamHeadMob{
+    font-size: 30px;
+    line-height: 42px;
+    padding-bottom: 2rem;
+    margin-top: 0rem;
+  }
+  .teamHeadMob{
+    display: block;
+  }
+  .teamHead{
+    display: none;
+  }
+  .team {
+    background-image: none;
+  }
+  .teamImgBox {
+    text-align: center;
+    width: 100%;
+    padding: 0rem 0rem 2rem 0rem;
+  }
+  .teamImgMob{
+    display: block;
+    width: 100%;
+  }
+  .teamImg{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .teamHeadMob{
+    font-size: 30px;
+    line-height: 32px;
+    padding-bottom: 2rem;
+    margin-top: 0rem;
+  }
+
+}
+@media screen and (max-width: 500px) {
+  .teamHeadMob{
+    font-size: 30px;
+    line-height: 32px;
+    padding-bottom: 2rem;
+    margin-top: 0rem;
+  }
+
+}

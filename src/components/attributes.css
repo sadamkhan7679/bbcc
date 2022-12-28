@@ -1,0 +1,34 @@
+.attributeImg {
+  width: 100%;
+}
+
+.attribute {
+  width: 100%;
+  padding: 5rem;
+  text-align: center;
+}
+
+.attributeImg2{
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .attribute {
+    padding: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .attribute {
+    padding: 1rem;
+  }
+  .attributeImg2{
+    display: block;
+    width: 100%;
+  }
+  .attributeImg{
+    display: none;
+  }
+
+}

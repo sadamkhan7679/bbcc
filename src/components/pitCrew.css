@@ -1,0 +1,738 @@
+.pitCrewHead {
+  font-family: "Squarix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: 0.09em;
+  padding-bottom: 2rem;
+  color: #ffffff;
+  padding-top: 3rem;
+  text-shadow: 0px 4px 157px rgba(0, 0, 0, 0.6);
+}
+.IconPitCrewBox {
+  text-align: right;
+  margin-right: 1rem;
+}
+.IconPitCrewImg {
+  width: 4.5rem;
+}
+.t-1 {
+  font-family: "Squarix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 104.9%;
+  /* or 26px */
+  text-align: left;
+  letter-spacing: 0.09em;
+  width: max-content;
+  color: #ffffff;
+
+  text-shadow: 0px 4px 157px rgba(0, 0, 0, 0.6);
+}
+.t-2 {
+  font-family: "Squarix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: left;
+  letter-spacing: 0.09em;
+  width: max-content;
+  color: #b6d9aa;
+
+  text-shadow: 0px 4px 157px rgba(0, 0, 0, 0.6);
+}
+.t-3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 104.9%;
+  /* or 19px */
+  width: max-content;
+  text-align: left;
+  letter-spacing: 0.025em;
+
+  color: #d2d2d2;
+}
+
+.pitCrewContainer1,
+.pitCrewContainer2,
+.pitCrewContainer3,
+.pitCrewContainer4 {
+  margin-top: 1rem;
+}
+
+.PitBox {
+  text-align:  -webkit-center;
+  margin-top: -16rem;
+  position: relative;
+  z-index: 0;
+}
+.pitboxImg {
+  width: 50rem;
+}
+.PitcrewGrid1 {
+  cursor: pointer;
+}
+.PitcrewGrid2 {
+  margin-left: -6rem;
+  cursor: pointer;
+}
+.PitcrewGrid3 {
+  margin-left: -8rem;
+  cursor: pointer;
+}
+.PitcrewGrid1:hover {
+  transform: scale(1.1);
+  transition: 0.5s all ease;
+}
+.PitcrewGrid2:hover {
+  transform: scale(1.1);
+  transition: 0.5s all ease;
+}
+.PitcrewGrid3:hover {
+  transform: scale(1.1);
+  transition: 0.5s all ease;
+}
+
+.detailsCrew {
+  font-family: "Squarix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 128.9%;
+  /* or 21px */
+
+  letter-spacing: 0.09em;
+
+  color: #deffb4;
+
+  text-shadow: 0px 4px 157px rgba(0, 0, 0, 0.6);
+}
+.crewDetails {
+  width: 42rem;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+  left: 0.5rem;
+  top: 4rem;
+  height: 14rem;
+}
+
+.teamCrewContent {
+  text-align: -webkit-center;
+}
+.cards-crew-scroll {
+  display: grid;
+  grid-template-columns: var(--page-margin) [center-start] 1fr [center-end] var(--page-margin);
+  }
+  
+
+  .pitboxImg2{
+    display: none;
+  }
+.crew-wrapper {
+  grid-column: center-start / -1;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 5rem;
+  overflow-x: scroll;
+  padding-bottom: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-right: var(--page-margin);
+  }
+
+ 
+
+.crew-wrapper {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.crew-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.MobCrew{
+  display: none;
+}
+
+@media screen and (max-width: 1470px) {
+  .pitboxImg {
+    width: 42rem;
+  }
+  .crewDetails {
+    width: 36rem;
+    top: 3rem;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .pitboxImg {
+    width: 32rem;
+  }
+  .crewDetails {
+    width: 28rem;
+    top: 1.5rem;
+  }
+  .IconPitCrewImg {
+    width: 3rem;
+  }
+  .t-1{
+    font-size: 16px;
+  }
+  .t-2{
+    font-size: 14px;
+  }
+  .t-3{
+    font-size: 13px;
+  }
+  .PitcrewGrid2 {
+    margin-left: -4rem;
+  }
+  .pitCrewHead{
+    font-size: 45px;
+    padding-bottom: 1rem;
+  }
+  .detailsCrew{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .pitboxImg {
+    width: 32rem;
+  }
+  .crewDetails {
+    width: 28rem;
+    top: 1.5rem;
+  }
+  .IconPitCrewImg {
+    width: 3rem;
+  }
+  .t-1{
+    font-size: 16px;
+  }
+  .t-2{
+    font-size: 14px;
+  }
+  .t-3{
+    font-size: 13px;
+  }
+  .PitcrewGrid2 {
+    margin-left: -3rem;
+  }
+  .pitCrewHead{
+    font-size: 45px;
+    padding-bottom: 1rem;
+  }
+  .detailsCrew{
+    font-size: 10px;
+  }
+  .PitcrewGrid3 {
+    margin-left: -5rem;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .pitboxImg {
+    width: 32rem;
+  }
+  .crewDetails {
+    width: 28rem;
+    top: 2.3rem;
+  }
+  .IconPitCrewImg {
+    width: 3rem;
+  }
+  .t-1{
+    font-size: 16px;
+  }
+  .t-2{
+    font-size: 14px;
+  }
+  .t-3{
+    font-size: 13px;
+  }
+  .PitcrewGrid2 {
+    margin-left: -3.5rem;
+  }
+  .pitCrewHead{
+    font-size: 45px;
+    padding-bottom: 1rem;
+  }
+  .detailsCrew{
+    font-size: 10px;
+  }
+  .PitcrewGrid3 {
+    margin-left: -2.5rem;
+  }
+  .PitcrewGrid1 {
+    margin-left: -3rem;
+  }
+  .PitBox{
+    margin-top: -15rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .MobCrew{
+    display: block;
+    margin-top: -3rem;
+  }
+
+  .pitboxImg{
+    display: none;
+  }
+  .pitboxImg2{
+    display: block;
+    width: 30rem;
+  }
+  .pitboxImg {
+    width: 32rem;
+  }
+  .crewDetails {
+    width: 22rem;
+    top: 2.3rem;
+  }
+  .IconPitCrewImg {
+    width: 5rem;
+  }
+  .t-1{
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .t-2{
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .t-3{
+    font-size: 15px;
+    line-height: 27px;
+  }
+  .PitcrewGrid2 {
+    margin-left: -3.5rem;
+  }
+  .pitCrewHead{
+    font-size: 30px;
+    padding-bottom: 1rem;
+  }
+  .detailsCrew{
+    font-size: 16px;
+  }
+  .PitcrewGrid3 {
+    margin-left: -2.5rem;
+  }
+  .PitcrewGrid1 {
+    margin-left: -3rem;
+  }
+  .PitBox{
+    margin-top: -15rem;
+  }
+  .pitCrewContainer1, .pitCrewContainer2, .pitCrewContainer3, .pitCrewContainer4{
+    display: none !important;
+  }
+  .PitcrewGrid{
+    margin: 1.2rem;
+  }
+  .crew {
+    display: grid;
+    place-content: center;
+    width: auto;
+    
+    padding: 0rem 0rem 2rem 0rem;
+  }
+  .crew2{
+    padding-left: 10rem;
+    padding-right: 12rem;
+
+  }
+  .crew3{
+    padding-right: 18rem;
+    padding-left: 5rem;
+  }
+  .arrow1{
+    position: relative;
+    left: 26rem;
+    top: 18rem;
+  }
+  .arrow2{
+    position: relative;
+    left: 30rem;
+    top: 18rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .MobCrew{
+    display: block;
+    margin-top: -3rem;
+  }
+
+  .pitboxImg{
+    display: none;
+  }
+  .pitboxImg2{
+    display: block;
+    width: 22rem;
+  }
+  .pitboxImg {
+    width: 32rem;
+  }
+  .crewDetails {
+    width: 16rem;
+    top: 1.5rem;
+
+  }
+  .IconPitCrewImg {
+    width: 5rem;
+  }
+  .t-1{
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .t-2{
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .t-3{
+    font-size: 13px;
+    line-height: 25px;
+  }
+  .PitcrewGrid2 {
+    margin-left: -3.5rem;
+  }
+  .pitCrewHead{
+    font-size: 30px;
+    padding-bottom: 1rem;
+  }
+  .detailsCrew{
+    font-size: 11px;
+  }
+  .PitcrewGrid3 {
+    margin-left: -2.5rem;
+  }
+  .PitcrewGrid1 {
+    margin-left: -3rem;
+  }
+  .PitBox{
+    margin-top: -15rem;
+  }
+  .pitCrewContainer1, .pitCrewContainer2, .pitCrewContainer3, .pitCrewContainer4{
+    display: none !important;
+  }
+  .PitcrewGrid{
+    margin: 0.5rem;
+  }
+  .crew {
+    display: grid;
+    place-content: center;
+    width: auto;
+    
+    padding: 0rem 0rem 2rem 0rem;
+  }
+  .crew2{
+    padding-left: 10rem;
+    padding-right: 12rem;
+
+  }
+  .crew3{
+    padding-right: 18rem;
+    padding-left: 5rem;
+  }
+  .arrow1{
+    position: relative;
+    left: 24rem;
+    top: 14rem;
+  }
+  .arrow2{
+    position: relative;
+    left: 24rem;
+    top: 14rem;
+  }
+  .crew-wrapper{
+    padding-left: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .MobCrew{
+    display: block;
+    margin-top: -4.5rem;
+  }
+
+  .pitboxImg{
+    display: none;
+  }
+  .pitboxImg2{
+    display: block;
+    width: 22rem;
+  }
+  .pitboxImg {
+    width: 32rem;
+  }
+  .crewDetails {
+    width: 16rem;
+    top: 1rem;
+  }
+  .IconPitCrewImg {
+    width: 5rem;
+  }
+  .t-1{
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .t-2{
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .t-3{
+    font-size: 15px;
+    line-height: 27px;
+  }
+  .PitcrewGrid2 {
+    margin-left: -3.5rem;
+  }
+  .pitCrewHead{
+    font-size: 30px;
+    padding-bottom: 1rem;
+  }
+  .detailsCrew{
+    font-size: 11px;
+  }
+  .PitcrewGrid3 {
+    margin-left: -2.5rem;
+  }
+  .PitcrewGrid1 {
+    margin-left: -3rem;
+  }
+  .PitBox{
+    margin-top: -15rem;
+  }
+  .pitCrewContainer1, .pitCrewContainer2, .pitCrewContainer3, .pitCrewContainer4{
+    display: none !important;
+  }
+  .PitcrewGrid{
+    margin: 1.2rem;
+  }
+  .crew {
+    display: grid;
+    place-content: center;
+    width: auto;
+    
+    padding: 0rem 0rem 2rem 0rem;
+  }
+  .crew2{
+    padding-left: 10rem;
+    padding-right: 1rem;
+
+  }
+  .crew3{
+    padding-right: 12rem;
+    padding-left: 5rem;
+  }
+  .arrow1{
+    position: relative;
+    left: 24rem;
+    top: 18rem;
+  }
+  .arrow2{
+    position: relative;
+    left: 24rem;
+    top: 18rem;
+  }
+  .crew-wrapper{
+    margin-left: -2rem;
+    padding-left: 0rem;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  .MobCrew{
+    display: block;
+    margin-top: -4.5rem;
+  }
+
+  .pitboxImg{
+    display: none;
+  }
+  .pitboxImg2{
+    display: block;
+    width: 22rem;
+  }
+  .pitboxImg {
+    width: 32rem;
+  }
+  .crewDetails {
+    width: 16rem;
+    top: 1rem;
+  }
+  .IconPitCrewImg {
+    width: 4rem;
+  }
+  .t-1{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .t-2{
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .t-3{
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .PitcrewGrid2 {
+    margin-left: -3.5rem;
+  }
+  .pitCrewHead{
+    font-size: 30px;
+    padding-bottom: 1rem;
+  }
+  .detailsCrew{
+    font-size: 11px;
+  }
+  .PitcrewGrid3 {
+    margin-left: -2.5rem;
+  }
+  .PitcrewGrid1 {
+    margin-left: -3rem;
+  }
+  .PitBox{
+    margin-top: -15rem;
+  }
+  .pitCrewContainer1, .pitCrewContainer2, .pitCrewContainer3, .pitCrewContainer4{
+    display: none !important;
+  }
+  .PitcrewGrid{
+    margin: 0.5rem;
+  }
+  .crew {
+    display: grid;
+    place-content: center;
+    width: auto;
+    
+    padding: 0rem 0rem 2rem 0rem;
+  }
+  .crew2{
+    padding-left: 10rem;
+    padding-right: 1rem;
+
+  }
+  .crew3{
+    padding-right: 12rem;
+    padding-left: 5rem;
+  }
+  .arrow1{
+    position: relative;
+    left: 20rem;
+    top: 14rem;
+  }
+  .arrow2{
+    position: relative;
+    left: 20rem;
+    top: 14rem;
+  }
+  .crew-wrapper{
+    margin-left: 0rem;
+    padding-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .MobCrew{
+    display: block;
+    margin-top: -4.5rem;
+  }
+
+  .pitboxImg{
+    display: none;
+  }
+  .pitboxImg2{
+    display: block;
+    width: 20rem;
+  }
+  .pitboxImg {
+    width: 32rem;
+  }
+  .crewDetails {
+    width: 15rem;
+    top: 1rem;
+  }
+  .IconPitCrewImg {
+    width: 4rem;
+  }
+  .t-1{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .t-2{
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .t-3{
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .PitcrewGrid2 {
+    margin-left: -3.5rem;
+  }
+  .pitCrewHead{
+    font-size: 30px;
+    padding-bottom: 1rem;
+  }
+  .detailsCrew{
+    font-size: 10px;
+  }
+  .PitcrewGrid3 {
+    margin-left: -2.5rem;
+  }
+  .PitcrewGrid1 {
+    margin-left: -3rem;
+  }
+  .PitBox{
+    margin-top: -15rem;
+  }
+  .pitCrewContainer1, .pitCrewContainer2, .pitCrewContainer3, .pitCrewContainer4{
+    display: none !important;
+  }
+  .PitcrewGrid{
+    margin: 0.5rem;
+  }
+  .crew {
+    display: grid;
+    place-content: center;
+    width: auto;
+    
+    padding: 0rem 0rem 2rem 0rem;
+  }
+  .crew2{
+    padding-left: 10rem;
+    padding-right: 1rem;
+
+  }
+  .crew3{
+    padding-right: 10rem;
+    padding-left: 5rem;
+  }
+  .arrow1{
+    position: relative;
+    left: 19rem;
+    top: 14rem;
+  }
+  .arrow2{
+    position: relative;
+    left: 19rem;
+    top: 14rem;
+  }
+  .crew-wrapper{
+    margin-left: -1rem;
+    padding-left: 0rem;
+  }
+}

@@ -1,0 +1,315 @@
+.Charity {
+  background-image: url("../img/charityBG.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 5rem 2rem;
+}
+
+.charity-head {
+  font-family: "Squarix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: 0.09em;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 157px rgba(0, 0, 0, 0.6);
+}
+.charity-subhead {
+  font-family: "Squarix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.045em;
+  padding: 2rem 0rem;
+  color: #ffffff;
+  width: 45rem;
+}
+
+.CharityBox {
+  text-align: center;
+  margin: 0rem 12rem;
+  padding: 1rem 3rem;
+  background-image: url('../img/CharityBG2.webp');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.IconImgCharity{
+  width: 10rem;
+}
+.CharityGrid{
+  justify-content: center;
+ 
+}
+.IconText{
+  font-family: 'Squarix';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.045em;
+
+color: #FFFFFF;
+
+}
+
+.iconBoxCharity{
+  margin: 1rem;
+}
+
+.TextInsideCharity{
+  font-family: 'Squarix';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.09em;
+
+color: #CDCDCD;
+
+text-shadow: 0px 4px 26px rgba(0, 0, 0, 0.45);
+}
+.textinsideCharityBox{
+  margin: 1.5rem 5rem;
+  border-left: 25px solid #90CC86;
+  border-right: 25px solid #90CC86;
+}
+.charity-content-text{
+  width: 100%;
+  text-align: -webkit-center;
+}
+@media screen and (max-width: 1500px) {
+  .CharityBox{
+    margin: 0rem 8rem;
+  }
+  .TextInsideCharity{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .CharityBox{
+    margin: 0rem 8rem;
+  }
+  .TextInsideCharity{
+    font-size: 18px;
+  }
+  .textinsideCharityBox{
+    margin: 1.5rem 3rem;
+    border-left: 20px solid #90CC86;
+    border-right: 20px solid #90CC86;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .CharityBox{
+    margin: 0rem 8rem;
+    padding: 1rem 2rem;
+
+  }
+  .TextInsideCharity{
+    font-size: 12px;
+  }
+  .textinsideCharityBox{
+    margin: 0rem 3rem;
+    border-left: 15px solid #90CC86;
+    border-right: 15px solid #90CC86;
+  }
+  .charity-head{
+    font-size: 40px;
+  }
+  .charity-subhead{
+    font-size: 20px;
+    padding: 1rem 0rem 2rem 0rem;
+  }
+  .IconImgCharity {
+    width: 6rem;
+}
+
+}
+
+@media screen and (max-width: 920px) {
+  .CharityBox{
+    margin: 0rem 2rem;
+    padding: 1rem 2rem;
+
+  }
+  .TextInsideCharity{
+    font-size: 12px;
+  }
+  .textinsideCharityBox{
+    margin: 0rem 3rem;
+    border-left: 15px solid #90CC86;
+    border-right: 15px solid #90CC86;
+  }
+  .charity-head{
+    font-size: 40px;
+  }
+  .charity-subhead{
+    font-size: 20px;
+    padding: 1rem 0rem 2rem 0rem;
+  }
+  .IconImgCharity {
+    width: 6rem;
+}
+
+}
+
+@media screen and (max-width: 775px) {
+  .CharityBox{
+    margin: 0rem 1rem;
+    padding: 1rem 2rem;
+
+  }
+  .TextInsideCharity{
+    font-size: 9px;
+    line-height: 18px;
+  }
+  .textinsideCharityBox{
+    margin: 0rem 3rem;
+    border-left: 10px solid #90CC86;
+    border-right: 10px solid #90CC86;
+  }
+  .charity-head{
+    font-size: 30px;
+  }
+  .charity-subhead{
+    font-size: 15px;
+    padding: 0.6rem 0rem 1rem 0rem;
+    width: 98%;
+  }
+  .IconImgCharity {
+    width: 5rem;
+}
+.iconBoxCharity {
+  margin: 0rem;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+  .CharityBox{
+    margin: 0rem 2rem;
+    padding: 1rem 4rem;
+    background-image: url('../img/charity-mob-bg.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  }
+  .TextInsideCharity{
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+  }
+  .textinsideCharityBox{
+    margin: 2rem 1.5rem;
+    border-left: 0px solid #90CC86;
+    border-right: 0px solid #90CC86;
+  }
+  .charity-head{
+    font-size: 30px;
+  }
+  .charity-subhead{
+    font-size: 15px;
+    padding: 0.6rem 0rem 1rem 0rem;
+  }
+  .IconImgCharity {
+    width: 5rem;
+}
+.iconBoxCharity {
+  margin: 0rem;
+}
+
+
+}
+
+@media screen and (max-width: 500px) {
+  .Charity{
+    padding: 5rem 0rem;
+  }
+  .CharityBox{
+    margin: 0rem 2rem;
+    padding: 1rem 4rem;
+    background-image: url('../img/charity-mob-bg.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  }
+  .TextInsideCharity{
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+  }
+  .textinsideCharityBox{
+    margin: 2rem 1.5rem;
+    border-left: 0px solid #90CC86;
+    border-right: 0px solid #90CC86;
+  }
+  .charity-head{
+    font-size: 30px;
+  }
+  .charity-subhead{
+    font-size: 15px;
+    padding: 0.6rem 0rem 3rem 0rem;
+    width: 92%;
+  }
+  .IconImgCharity {
+    width: 5rem;
+}
+.iconBoxCharity {
+  margin: 0rem;
+}
+
+
+}
+
+@media screen and (max-width: 450px) {
+  .CharityBox {
+    margin: 0rem 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .CharityBox {
+    margin: 0rem 1rem;
+  }
+  .textinsideCharityBox {
+    margin: 0rem 0.5rem;
+  }
+  .TextInsideCharity {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+}
+.charity-subhead {
+  font-size: 13px;
+}
+}
+
+@media screen and (max-width: 350px) {
+  .CharityBox {
+    margin: 0rem 1rem;
+  }
+  .textinsideCharityBox {
+    margin: 0rem 0.5rem;
+  }
+  .TextInsideCharity {
+    font-size: 9px;
+    line-height: 18px;
+    text-align: left;
+}
+.CharityBox {
+  margin: 0rem 0rem;
+}
+.charity-subhead {
+  font-size: 11px;
+}
+}

@@ -1,0 +1,82 @@
+@font-face {
+  font-family: Squarix;
+  src: url("../fonts/SQUARIX.ttf");
+}
+
+.videoFrame {
+  width: 100%;
+}
+
+
+.cards-nft-scroll {
+  display: grid;
+  grid-template-columns: var(--page-margin) [center-start] 1fr [center-end] var(--page-margin);
+  }
+  
+
+
+.cards-wrapper {
+  grid-column: center-start / -1;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 0.3rem;
+  overflow-x: scroll;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: var(--page-margin);
+  }
+  .card {
+    display: grid;
+    place-content: center;
+    min-width: 20rem;
+    padding: 0.5rem;
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .cards-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.cards-wrapper {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.nft{
+  max-width: 20rem;
+border-radius: 1rem;
+}
+.nft:hover {
+  transform: scale(1.02);
+  transition: 0.5s all ease;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+  .nft{
+    max-width: 16rem;
+  }
+  .card{
+    min-width: 16rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .nft{
+    max-width: 13rem;
+  }
+  .card{
+    min-width: 13rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nft{
+    max-width: 10rem;
+  }
+  .card{
+    min-width: 10rem;
+  }
+}

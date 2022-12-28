@@ -1,0 +1,619 @@
+.Highlights {
+  background-image: url("../img/HighlightsBG.webp");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.head-highlights {
+  text-align: center;
+}
+.img-highlight-text {
+  font-family: "Squarix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  width: max-content;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0px 4px 157px rgba(0, 0, 0, 0.6);
+}
+.heding-text-highlights {
+  font-family: "Squarix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.09em;
+  color: #ffffff;
+  padding-top: 5rem;
+  text-shadow: 0px 4px 157px rgba(0, 0, 0, 0.6);
+}
+.highlight-Container {
+  margin-top: 5rem;
+}
+.containerHighlight {
+  justify-content: center;
+}
+
+.highIMG {
+  text-align: -webkit-center;
+}
+
+.img-highlight {
+  width: 7rem;
+  cursor: pointer;
+}
+.img-highlight:hover {
+  transform: scale(1.1);
+  transition: 0.5s all ease;
+}
+
+.detailsSVG {
+  width: 60rem;
+  height: 5rem;
+  top: 9rem;
+  position: relative;
+}
+
+.svgDiv {
+  text-align: -webkit-center;
+  margin-top: 0rem;
+}
+.svg {
+  width: 70rem;
+}
+
+.deatilsTest {
+  font-family: "Squarix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #000000;
+
+  width: 50rem;
+  text-shadow: 0px 4px 157px rgb(0 0 0 / 60%);
+}
+
+.utility {
+  background-image: url("../img/utilityBG.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.nftUtility {
+  padding: 2rem 12rem 2rem 8rem;
+}
+.imgUtility:hover {
+  transform: scale(1.1);
+  transition: 0.5s all ease;
+}
+.img-utility-box {
+  text-align: right;
+}
+
+.imgUtility {
+  margin-top: 5rem;
+  width: 35rem;
+}
+
+.nftUtilityHead {
+  font-family: "Squarix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 57px;
+  letter-spacing: 0.09em;
+  margin: 2rem 0rem 5rem 0rem;
+  color: #ffffff;
+
+  text-shadow: 0px 4px 157px rgba(0, 0, 0, 0.6);
+}
+
+.nftutilityData {
+  font-family: "Squarix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 29px;
+  letter-spacing: 0.042em;
+  margin-top: 2rem;
+  color: #ffffff;
+}
+
+.svg2{
+  display: none;
+}
+
+@media screen and (max-width: 1450px) {
+  .img-highlight {
+    width: 6rem;
+  }
+  .img-highlight-text{
+    font-size: 18px;
+  }
+  .svg {
+    width: 60rem;
+  }
+  .deatilsTest{
+    font-size: 18px;
+    width: 40rem;
+  }
+  .detailsSVG{
+    top: 8rem;
+  }
+  .nftUtilityHead{
+    font-size: 40px;
+    margin: 2rem 0rem 2rem 0rem;
+  }
+  .nftutilityData{
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+  .imgUtility{
+    width: 30rem;
+  }
+
+}
+
+@media screen and (max-width: 1250px) {
+  .heding-text-highlights{
+    font-size: 40px;
+  }
+  .img-highlight {
+    width: 5rem;
+  }
+  .img-highlight-text{
+    font-size: 16px;
+  }
+  .svg {
+    width: 50rem;
+  }
+  .deatilsTest{
+    font-size: 17px;
+    width: 30rem;
+  }
+  .detailsSVG{
+    top: 7rem;
+  }
+  .svgDiv{
+    margin-top: -3rem;
+  }
+  .nftUtilityHead{
+    font-size: 35px;
+    margin: 2rem 0rem 1rem 0rem;
+  }
+  .nftutilityData{
+    font-size: 15px;
+    margin-top: 0.5rem;
+  }
+  .imgUtility{
+    width: 25rem;
+  }
+  .img-utility-box{
+    margin-left: 5rem;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .heding-text-highlights{
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .img-highlight {
+    width: 4rem;
+  }
+  .img-highlight-text{
+    font-size: 14px;
+  }
+  .svg {
+    width: 40rem;
+  }
+  .deatilsTest{
+    font-size: 16px;
+    width: 25rem;
+    line-height: 20px;
+  }
+  .detailsSVG{
+    top: 6rem;
+    width: 50rem;
+    height: 4rem;
+
+  }
+  .svgDiv{
+    margin-top: -3rem;
+  }
+  .nftUtilityHead{
+    font-size: 30px;
+    margin: 2rem 0rem 0rem 0rem;
+  }
+  .nftutilityData{
+    font-size: 12px;
+    margin-top: 0.3rem;
+  }
+  .imgUtility{
+    width: 21rem;
+  }
+  .img-utility-box{
+    margin-left: 4rem;
+  }
+  
+    
+}
+
+@media screen and (max-width: 900px) {
+  .heding-text-highlights{
+    font-size: 40px;
+    line-height: 35px;
+  }
+  .img-highlight {
+    width: 5rem;
+  }
+  .img-highlight-text{
+    font-size: 18px;
+  }
+  .svg {
+    width: 40rem;
+  }
+  .deatilsTest{
+    font-size: 15px;
+    width: 25rem;
+    line-height: 20px;
+  }
+  .detailsSVG{
+    top: 6rem;
+    width: 50rem;
+    height: 4rem;
+
+  }
+  .svgDiv{
+    margin-top: 0rem;
+  }
+  .nftUtility {
+    padding: 2rem 12rem 2rem 4rem;
+}
+.nftUtilityHead{
+  font-size: 25px;
+  margin: 2rem 0rem 0rem 0rem;
+}
+.nftutilityData{
+  font-size: 10px;
+  margin-top: 0.3rem;
+}
+.imgUtility{
+  width: 18rem;
+}
+.img-utility-box{
+  margin-left: 6rem;
+}
+  
+    
+}
+@media screen and (max-width: 800px) {
+  .heding-text-highlights{
+    font-size: 40px;
+    line-height: 35px;
+  }
+  .img-highlight {
+    width: 5rem;
+  }
+  .img-highlight-text{
+    font-size: 18px;
+  }
+  .svg {
+    width: 32rem;
+  }
+  .deatilsTest{
+    font-size: 15px;
+    width: 22rem;
+    line-height: 20px;
+  }
+  .detailsSVG{
+    top: 5.5rem;
+    width: 37rem;
+    height: 4rem;
+
+  }
+  .svgDiv{
+    margin-top: 0rem;
+  }
+  .nftUtility {
+    padding: 2rem 2rem 2rem 2rem;
+}
+.nftUtilityHead{
+  font-size: 25px;
+  margin: 2rem 0rem 0rem 0rem;
+}
+.nftutilityData{
+  font-size: 10px;
+  margin-top: 0.3rem;
+}
+.imgUtility{
+  width: 18rem;
+}
+.img-utility-box{
+  margin-left: 0rem;
+}
+.utility {
+  background-image: none !important;
+ 
+}
+    
+}
+
+@media screen and (max-width: 600px) {
+  .highlight-Container {
+    margin-top: 2rem;
+}
+  .heding-text-highlights{
+    font-size: 40px;
+    line-height: 35px;
+  }
+  .img-highlight {
+    width: 5rem;
+  }
+  .img-highlight-text{
+    font-size: 18px;
+  }
+  .svg {
+    width: 32rem;
+  }
+  .deatilsTest{
+    font-size: 14px;
+    width: 12rem;
+    line-height: 20px;
+  }
+  .detailsSVG{
+    top: 6.5rem;
+    width: 30rem;
+    height: 4rem;
+
+  }
+  .svgDiv{
+    margin-top: 0rem;
+  }
+  .nftUtility {
+    padding: 2rem 2rem 2rem 2rem;
+}
+.nftUtilityHead{
+  font-size: 35px;
+  text-align: center;
+  margin: 2rem 0rem 0rem 0rem;
+}
+.nftutilityData{
+  font-size: 20px;
+  margin-top: 1rem;
+}
+.imgUtility{
+  width: 30rem;
+}
+.img-utility-box{
+  margin-left: 0rem;
+  text-align: center;
+}
+.utility {
+  background-image: none !important;
+ 
+}
+.svg2{
+  display: block !important;
+}
+.svg{
+  display: none !important;
+}
+.svg2img{
+  width: 18rem;
+}
+
+    
+}
+@media screen and (max-width: 500px) {
+  .highlight-Container {
+    margin-top: 2rem;
+}
+  .heding-text-highlights{
+    font-size: 40px;
+    line-height: 35px;
+    padding-top: 3rem;
+  }
+  .img-highlight {
+    width: 4rem;
+  }
+  .img-highlight-text{
+    font-size: 18px;
+  }
+  .svg {
+    width: 32rem;
+  }
+  .deatilsTest{
+    font-size: 14px;
+    width: 12rem;
+    line-height: 20px;
+  }
+  .detailsSVG{
+    top: 6.5rem;
+    width: 25rem;
+    height: 4rem;
+
+  }
+  .svgDiv{
+    margin-top: 0rem;
+  }
+  .nftUtility {
+    padding: 2rem 2rem 2rem 2rem;
+}
+.nftUtilityHead{
+  font-size: 35px;
+  text-align: center;
+  margin: 2rem 0rem 0rem 0rem;
+}
+.nftutilityData{
+  font-size: 20px;
+  margin-top: 1rem;
+}
+.imgUtility{
+  width: 22rem;
+}
+.img-utility-box{
+  margin-left: 0rem;
+  text-align: center;
+}
+.utility {
+  background-image: none !important;
+ 
+}
+.svg2{
+  display: block !important;
+}
+.svg{
+  display: none !important;
+}
+.svg2img{
+  width: 18rem;
+}
+
+    
+}
+
+@media screen and (max-width: 400px) {
+  .highlight-Container {
+    margin-top: 2rem;
+}
+  .heding-text-highlights{
+    font-size: 40px;
+    line-height: 35px;
+    padding-top: 3rem;
+  }
+  .img-highlight {
+    width: 4rem;
+  }
+  .img-highlight-text{
+    font-size: 16px;
+  }
+  .svg {
+    width: 32rem;
+  }
+  .deatilsTest{
+    font-size: 14px;
+    width: 12rem;
+    line-height: 20px;
+  }
+  .detailsSVG{
+    top: 6.5rem;
+    width: 20rem;
+    height: 4rem;
+
+  }
+  .svgDiv{
+    margin-top: -2rem;
+  }
+  .nftUtility {
+    padding: 2rem 2rem 2rem 2rem;
+}
+.nftUtilityHead{
+  font-size: 35px;
+  text-align: center;
+  margin: 2rem 0rem 0rem 0rem;
+}
+.nftutilityData{
+  font-size: 17px;
+  margin-top: 1rem;
+}
+.imgUtility{
+  width: 18rem;
+  margin-top: 2rem;
+}
+.img-utility-box{
+  margin-left: 0rem;
+  text-align: center;
+}
+.utility {
+  background-image: none !important;
+ 
+}
+.svg2{
+  display: block !important;
+}
+.svg{
+  display: none !important;
+}
+.svg2img{
+  width: 17rem;
+}
+
+    
+}
+
+@media screen and (max-width: 340px) {
+  .highlight-Container {
+    margin-top: 2rem;
+}
+  .heding-text-highlights{
+    font-size: 30px;
+    line-height: 35px;
+    padding-top: 2rem;
+  }
+  .img-highlight {
+    width: 3rem;
+  }
+  .img-highlight-text{
+    font-size: 12px;
+  }
+  .svg {
+    width: 32rem;
+  }
+  .deatilsTest{
+    font-size: 13px;
+    width: 12rem;
+    line-height: 20px;
+  }
+  .detailsSVG{
+    top: 6rem;
+    width: 15rem;
+    height: 4rem;
+
+  }
+  .svgDiv{
+    margin-top: -2rem;
+  }
+  .nftUtility {
+    padding: 2rem 1rem 2rem 1rem;
+}
+.nftUtilityHead{
+  font-size: 30px;
+  text-align: center;
+  margin: 1rem 0rem 0rem 0rem;
+}
+.nftutilityData{
+  font-size: 15px;
+  margin-top: 0.5rem;
+}
+.imgUtility{
+  width: 15rem;
+  margin-top: 1rem;
+}
+.img-utility-box{
+  margin-left: 0rem;
+  text-align: center;
+}
+.utility {
+  background-image: none !important;
+ 
+}
+.svg2{
+  display: block !important;
+}
+.svg{
+  display: none !important;
+}
+.svg2img{
+  width: 14rem;
+}
+
+    
+}

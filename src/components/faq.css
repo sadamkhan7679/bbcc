@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+.faq-header {
+  background-color: transparent !important;
+  margin-top: 10px !important;
+}
+
+.headerBoxFaq {
+  border: 2px solid #ffffff !important;
+  border-radius: 20px !important;
+  height: 3rem !important;
+  min-height: 1rem !important;
+  color: #ffffff !important;
+}
+.MuiAccordionSummary-expandIconWrapper {
+  color: #ffffff !important;
+}
+.faqhead {
+  color: #ffffff !important;
+  justify-content: center !important;
+}
+.faq {
+  padding: 5rem 15rem 1rem 15rem;
+  position: relative;
+  z-index: 1;
+ 
+}
+.headFaqText {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 137.5%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding: 0rem 5rem 3rem 5rem;
+}
+@media screen and (max-width: 1299px) {
+  .faq {
+    padding: 5rem 12rem 5rem 12rem;
+  }
+  .headFaqText {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1099px) {
+  .faq {
+    padding: 5rem 10rem 5rem 10rem;
+  }
+  .headFaqText {
+    font-size: 40px;
+  }
+  .headerBoxFaq {
+    height: 2.5rem !important;
+  }
+  .faqhead {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 899px) {
+  .faq {
+    padding: 5rem 2rem 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .faq {
+    padding: 5rem 1rem 2rem 1rem;
+  }
+  .faqhead {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .faq {
+    padding: 5rem 0.5rem 2rem 0.5rem;
+  }
+  .faqhead {
+    font-size: 0.7rem !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .faq {
+    padding: 5rem 0.5rem 2rem 0.5rem;
+  }
+  .faqhead {
+    font-size: 0.6rem !important;
+  }
+}
+@media screen and (max-width: 340px) {
+  .faq {
+    padding: 5rem 0.5rem 2rem 0.5rem;
+  }
+  .faqhead {
+    font-size: 0.5rem !important;
+  }
+}
